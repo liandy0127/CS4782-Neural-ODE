@@ -19,7 +19,6 @@ This repository contains the following key directories and files:
     - `Neural_ODE.ipynb`: Jupyter notebook for implementing and testing the ODE-Net model.
   - `time-series/`:
     - `latent_ode.py`: Python script for implementing the Latent ODE model.
-    - `odeint.py`: Script for integration and training of ODE-based models.
 
 - **`data/`**: Contains datasets used for training and evaluation.
   - `CNF/`, `Resnet/`, `time-series/`: Relevant datasets for each model (e.g., `Resnet_data.txt`).
@@ -27,8 +26,7 @@ This repository contains the following key directories and files:
 - **`results/`**: Includes saved results from the experiments and visualizations.
   - `CNF Paper.pdf`: Paper on CNF.
   - `Resnet_results.pdf`: Results for the ResNet-based ODE-Net.
-  - `latent_ode_vis.zip`: Visualizations from the Latent ODE experiments.
-  - `learn_physics_figs.zip`, `ode_demos_png.zip`: Additional figures and demos.
+  - `latent_ode_plots.zip`: Visualizations from the Latent ODE experiments.
 
 - **`poster/`**: Contains a PDF of the project poster.
 
@@ -43,7 +41,7 @@ This repository contains the following key directories and files:
 ### Models and Datasets:
 - **ODE-Net**: Re-implementation for MNIST classification using a continuous-depth neural network.
 - **CNF**: Uses a two-layer MLP for Gaussian to two-moon distribution transformation.
-- **Latent ODE**: Reconstructs spiral trajectories from irregularly sampled data.
+- **Latent ODE**: Reconstructs spiral and sinusoid trajectories from irregularly sampled data.
 
 ### Tools:
 - **PyTorch** for model implementation.
