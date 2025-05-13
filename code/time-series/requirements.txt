@@ -1,0 +1,7 @@
+# requirements.txt
+python>=3.7
+
+torch>=1.10.0         
+torchdiffeq>=0.2.2     # Neural ODE solvers for PyTorch
+numpy>=1.20.0
+matplotlib>=3.3.0
