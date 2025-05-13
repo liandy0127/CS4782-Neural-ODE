@@ -97,12 +97,16 @@ To re-implement this project locally, follow these steps:
    ```bash
    python code/time-series/latent_ode.py \
      --dataset spiral \
-     --nsample 100 \
-     --subsample 50 \
-     --clustered True \
-     --adjoint True \
-     --visualize True \
-     --gpu 0
+     --nsample 300 \
+     --subsample 100 \
+     --niters 2000
+   ```
+   ```bash
+   python code/time-series/latent_ode.py \
+     --dataset sinusoid \
+     --nsample 300 \
+     --subsample 100 \
+     --niters 2000
    ```
 
 7. **Inspect results**
