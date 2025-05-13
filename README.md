@@ -63,3 +63,73 @@ To re-implement this project locally, follow these steps:
    ```bash
    git clone https://github.com/liandy0127/CS4782-Neural-ODE
    cd CS4782-Neural-ODE
+
+
+## 5. Reproduction Steps
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/liandy0127/CS4782-Neural-ODE.git
+   cd CS4782-Neural-ODE
+````
+
+2. **Create & activate a virtual environment**
+
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate      # On Windows: .\venv\Scripts\activate
+   ```
+
+3. **Install dependencies**
+   Ensure you have a `requirements.txt` containing:
+
+   ```text
+   torch>=1.10.0
+   torchdiffeq>=0.2.2
+   numpy>=1.20.0
+   matplotlib>=3.3.0
+   ```
+
+   Then run:
+
+   ```bash
+   pip install --upgrade pip
+   pip install -r requirements.txt
+   ```
+
+4. **Run the ODE‑Net MNIST demo**
+
+   ```bash
+   jupyter notebook code/Resnet/Neural_ODE.ipynb
+   ```
+
+5. **Run the CNF two‑moon demo**
+
+   ```bash
+   jupyter notebook code/CNF/CNF.ipynb
+   ```
+
+6. **Run the Latent ODE time‑series script**
+
+   ```bash
+   python code/time-series/latent_ode.py \
+     --dataset spiral \
+     --nsample 100 \
+     --subsample 50 \
+     --clustered True \
+     --adjoint True \
+     --visualize True \
+     --gpu 0
+   ```
+
+7. **Inspect results**
+   Check the `results/` folder for PNGs and logs.
+   To run on the chirp dataset instead:
+
+   ```bash
+   python code/time-series/latent_ode.py --dataset chirp --visualize True
+   ```
+
+```
+```
+
