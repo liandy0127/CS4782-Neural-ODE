@@ -109,14 +109,6 @@ To re-implement this project locally, follow these steps:
      --niters 2000
    ```
 
-7. **Inspect results**
-   Check the `results/` folder for PNGs and logs.
-   To run on the chirp dataset instead:
-
-   ```bash
-   python code/time-series/latent_ode.py --dataset chirp --visualize True
-   ```
-
 
 ## 6 Results/Insights
 
@@ -143,7 +135,7 @@ To re-implement this project locally, follow these steps:
 
 ## 9 Acknowledgements
 
-This work was completed as part of **CS4782: Neural Ordinary Differential Equations** at Cornell University. We thank Prof. Kilian Weinberger and Prof. Jennifer Sun for feedback on methodology and presentation, and the open‑source **torchdiffeq** community for the ODE solver implementations.  
+This work was completed as part of **CS4782: Intro to Deep Learning** at Cornell University. We thank Prof. Kilian Weinberger and Prof. Jennifer Sun for feedback on methodology and presentation, and the open‑source **torchdiffeq** community for the ODE solver implementations.  
 ```
 
 
