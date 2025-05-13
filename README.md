@@ -57,16 +57,9 @@ This repository contains the following key directories and files:
 - Adjustments to training steps due to limited computational resources.
 - Modifications to solvers for efficiency.
 
+
 ## 5. Reproduction Steps
 To re-implement this project locally, follow these steps:
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/liandy0127/CS4782-Neural-ODE
-   cd CS4782-Neural-ODE
-
-
-## 5. Reproduction Steps
-
 1. **Clone the repository**  
    ```bash
    git clone https://github.com/liandy0127/CS4782-Neural-ODE.git
@@ -81,16 +74,6 @@ To re-implement this project locally, follow these steps:
    ```
 
 3. **Install dependencies**
-   Ensure you have a `requirements.txt` containing:
-
-   ```text
-   torch>=1.10.0
-   torchdiffeq>=0.2.2
-   numpy>=1.20.0
-   matplotlib>=3.3.0
-   ```
-
-   Then run:
 
    ```bash
    pip install --upgrade pip
