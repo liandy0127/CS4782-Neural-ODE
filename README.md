@@ -25,7 +25,7 @@ This repository contains the following key directories and files:
   
 - **`results/`**: Includes saved results from the experiments and visualizations.
   - `CNF Paper.pdf`: Paper on CNF.
-  - `Resnet_results.pdf`: Results for the ResNet-based ODE-Net.
+  - `Resnet_results.png`: Results for the ResNet-based ODE-Net.
   - `latent_ode_plots.zip`: Visualizations from the Latent ODE experiments.
 
 - **`poster/`**: Contains a PDF of the project poster.
