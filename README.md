@@ -71,7 +71,7 @@ To re-implement this project locally, follow these steps:
    ```bash
    git clone https://github.com/liandy0127/CS4782-Neural-ODE.git
    cd CS4782-Neural-ODE
-````
+   ```
 
 2. **Create & activate a virtual environment**
 
