@@ -114,7 +114,7 @@ To re-implement this project locally, follow these steps:
    ```
 
 
-## 3.6 Results/Insights
+## 6 Results/Insights
 
 - **ODE‑Net Classification**  
   - Achieved 98.3 % accuracy on MNIST vs. 98.5 % reported by Chen et al., with only 0.22 M parameters.  
@@ -124,20 +124,20 @@ To re-implement this project locally, follow these steps:
   - ELBO loss improved from below –50 000 to 70 after 2 000 training steps, yielding accurate forward/backward reconstructions of spirals.  
   - Chirp (sinusoidal) trajectories also reconstruct correctly but converge more slowly due to their non‑stationary dynamics.
 
-## 3.7 Conclusion
+## 7 Conclusion
 
 - Continuous‑depth ODE‑Nets can match ResNet performance on classification with far fewer parameters.  
 - CNF implementations work end‑to‑end but require more training steps or solver‑tolerance tuning to approach original likelihoods.  
 - Variational Latent ODEs effectively model irregular time‑series; choice of uniform vs. clustered subsampling has limited impact on final fit.  
 - **Lessons Learned:** Sufficient training iterations and optimized ODE‑solver settings are crucial for reproducing high‑fidelity results.
 
-## 3.8 References
+## 8 References
 
 - Chen, R. T. Q., Rubanova, Y., Bettencourt, J., & Duvenaud, D. (2018). *Neural Ordinary Differential Equations*. NeurIPS.  
 - Grathwohl, W., Chen, R. T. Q., Bettencourt, J., Sutskever, I., & Duvenaud, D. (2019). *FFJORD: Free‑Form Continuous Dynamics for Scalable Reversible Generative Models*. ICML.  
 - Chen, R. T. Q. et al. (2020). *torchdiffeq* (code repository). https://github.com/rtqichen/torchdiffeq
 
-## 3.9 Acknowledgements
+## 9 Acknowledgements
 
 This work was completed as part of **CS4782: Neural Ordinary Differential Equations** at Cornell University. We thank Prof. Kilian Weinberger and Prof. Jennifer Sun for feedback on methodology and presentation, and the open‑source **torchdiffeq** community for the ODE solver implementations.  
 ```
