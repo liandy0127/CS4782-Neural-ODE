@@ -7,7 +7,7 @@ This project re-implements the key results from the paper "Neural Ordinary Diffe
 We focus on reproducing three key results from the original paper:
 - **ODE-Net Classification**: Neural ODEs are shown to be competitive with ResNet for image classification tasks, specifically MNIST.
 - **CNF Two-Moon Transformation**: Demonstrates the use of Continuous Normalizing Flows (CNF) for density estimation.
-- **Latent ODE Spiral Reconstruction**: Reconstructs spirals from irregularly sampled data, showcasing the potential of Neural ODEs for continuous-time modeling.
+- **Latent ODE Spiral Reconstruction**: Reconstructs spirals and chirp sinusoids from irregularly sampled data, showcasing the potential of Neural ODEs for continuous-time modeling.
 
 ## 3. GitHub Contents
 This repository contains the following key directories and files:
@@ -18,7 +18,7 @@ This repository contains the following key directories and files:
   - `Resnet/`:
     - `Neural_ODE.ipynb`: Jupyter notebook for implementing and testing the ODE-Net model.
   - `time-series/`:
-    - `latent_ode_new.py`: Python script for implementing the Latent ODE model.
+    - `latent_ode.py`: Python script for implementing the Latent ODE model.
     - `odeint.py`: Script for integration and training of ODE-based models.
 
 - **`data/`**: Contains datasets used for training and evaluation.
